@@ -34,6 +34,8 @@ Press "Test prompt" button for fast chatting test. If you see prompt sent to cho
 [WS] extension connected from ::ffff:127.0.0.1<br>
 [WS<-EXT] hello<br>
 
+<img width="1227" height="119" alt="image" src="https://github.com/user-attachments/assets/c4553db0-892b-4d3c-8a48-ae0955df5a2c" />
+
 ## Normal extension state:<br>
 WS URL: ws://127.0.0.1:11435/bridge<br>
 WS status: Connected<br>
