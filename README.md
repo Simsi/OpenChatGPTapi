@@ -6,8 +6,8 @@ That is the way to walk through API limits by using web version of chatgpt.<br>
 No api tokens, no subscription needed.<br>
 <br>
 Wrote using chatGPT5 (lol)<br>
-<br>
-# Usage:<br>
+
+# Usage:
 1) Upload files<br>
 2) Setup npm server (cd /path/to/serverdir , npm i , npm start)<br>
 Serves requests for chatGPT<br>
@@ -16,11 +16,11 @@ Serves requests for chatGPT<br>
 5) Press "Inject". ("Content script" should become "Alive") <br>
 6) Done! <br>
 <br>
-# Testing<br>
+# Testing
 After setting up you can test communication "Extension <-> server" and "Extension <-> chat"<br>
 Tested on Windows 10 + Yandex browser (probably should work in chromium)<br>
 <br>
-## "Extension <-> server"<br>
+## "Extension <-> server"
 <br>
 Server "extension connected successfully" output:<br>
 <br>
