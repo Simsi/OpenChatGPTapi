@@ -5,7 +5,7 @@ Backdoor for chatgpt, using web chatgpt as API<br>
 That is the way to walk through API limits by using web version of chatgpt.<br>
 No api tokens, no subscription needed.<br>
 <br>
-Wrote using chatGPT5 (lol)<br>
+
 
 # Usage:
 1) Upload files<br>
