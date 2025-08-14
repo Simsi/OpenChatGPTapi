@@ -19,21 +19,21 @@ Serves requests for chatGPT<br>
 # Testing
 After setting up you can test communication "Extension <-> server" and "Extension <-> chat"<br>
 Tested on Windows 10 + Yandex browser (probably should work in chromium)<br>
-<br>
+
 ## "Extension <-> server"
 <br>
 Server "extension connected successfully" output:<br>
-<br>
+
 ## "Extension <-> chat"<br>
 Press "Test prompt" button for fast chatting test. If you see prompt sent to chosen model and answer is loading - it works!<br>
-<br>
+
 ## Normal extension state:<br>
 WS URL: ws://127.0.0.1:11435/bridge<br>
 WS status: Connected<br>
 ChatGPT tab: Open<br>
 Content script: Alive<br>
 Server health: OK; ext=true; pending=0<br>
-<br>
+
 ## Test from request<br>
 One of the purpose of that extension-server: use with agents as an API compatible with OpenAI agent api.<br>
 Not tested yet with agents. You can interract with server from your Python (anyth else) code using requests.<br> 
