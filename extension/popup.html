@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head><meta charset="utf-8"><title>ChatGPT Bridge</title></head>
+  <body style="font-family: system-ui, sans-serif; padding: 12px; width: 340px;">
+    <h4>ChatGPT Bridge</h4>
+    <div id="grid" style="display:grid;grid-template-columns:150px 1fr;gap:6px 8px;">
+      <div>WS URL:</div> <div id="wsUrl">—</div>
+      <div>WS status:</div> <div id="ws">—</div>
+      <div>ChatGPT tab:</div> <div id="tab">—</div>
+      <div>Content script:</div> <div id="ct">—</div>
+      <div>Server health:</div> <div id="health">—</div>
+    </div>
+    <div style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+      <button id="btnOpen">Open ChatGPT</button>
+      <button id="btnInject">Inject</button>
+      <button id="btnTest">Test prompt</button>
+      <button id="btnRefresh">Refresh</button>
+    </div>
+    <pre id="log" style="margin-top:10px; padding:8px; background:#f5f5f7; border:1px solid #ddd; max-height:160px; overflow:auto;"></pre>
+    <script src="popup.js"></script>
+  </body>
+</html>
