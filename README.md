@@ -26,6 +26,13 @@ Server "extension connected successfully" output:<br>
 
 ## "Extension <-> chat"<br>
 Press "Test prompt" button for fast chatting test. If you see prompt sent to chosen model and answer is loading - it works!<br>
+<br>
+[WS] extension connected from ::ffff:127.0.0.1 <br>
+[WS] extension disconnected<br>
+[WS<-EXT] hello<br>
+[WS] extension disconnected<br>
+[WS] extension connected from ::ffff:127.0.0.1<br>
+[WS<-EXT] hello<br>
 
 ## Normal extension state:<br>
 WS URL: ws://127.0.0.1:11435/bridge<br>
@@ -46,5 +53,6 @@ You will see sth like that as the request (Chat GPT 5 Fast in example output):<b
 <br>
 Then parse the answer for your purposes. Enjoy!<br>
 
+<img width="363" height="177" alt="image" src="https://github.com/user-attachments/assets/f9ffafb4-d7e8-4e22-be09-b7f1a1df66b6" />
 
 
